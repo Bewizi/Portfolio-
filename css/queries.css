@@ -1,0 +1,51 @@
+@media (max-width: 500px) {
+  .header {
+    left: 0;
+    background-color: #fcfdf46a;
+  }
+  .portfoilo-name {
+    font-size: 1rem;
+  }
+  nav {
+    display: none;
+  }
+  .links {
+    flex-direction: column;
+    position: absolute;
+    top: 12.13rem;
+    width: 100%;
+    height: auto;
+    left: 0;
+    text-align: center;
+    padding: 3% 0;
+    z-index: 999;
+    background-color: #fcfdf47d;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
+    transform: translateY(-40%);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .icons {
+    display: block;
+  }
+  .close {
+    display: none;
+  }
+
+  /* home section */
+  .home-container {
+    padding: 0 5%;
+    flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    width: 100%;
+  }
+  .home-image {
+    margin-top: 5rem;
+  }
+}
