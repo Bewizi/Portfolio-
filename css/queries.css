@@ -9,7 +9,7 @@
   nav {
     display: none;
   }
-  .links {
+  .links ul {
     flex-direction: column;
     position: absolute;
     top: 12.13rem;

@@ -7,7 +7,7 @@
 }
 
 /* nav ul li a */
-.links {
+.links ul {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,7 +1,6 @@
 const nav = document.querySelector("nav");
 const openNav = document.querySelector(".menu");
 const closeNav = document.querySelector(".close");
-const listOfLInks = document.querySelectorAll(".list-links");
 
 // this is a click funtion for opennav and closenav
 openNav.addEventListener("click", () => {
@@ -16,12 +15,3 @@ closeNav.addEventListener("click", () => {
 });
 
 // when the list are clicked the nav should hide
-if (listOfLInks && nav) {
-  listOfLInks.forEach((link) => {
-    link.addEventListener("click", () => {
-      nav.style.display = "none";
-      openNav.style.display = "block";
-      closeNav.style.display = "none";
-    });
-  });
-}

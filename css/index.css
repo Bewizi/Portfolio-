@@ -30,6 +30,10 @@ img {
   object-fit: cover;
 }
 
+nav {
+  display: block;
+}
+
 /* container */
 .container {
   max-width: 1300px;
