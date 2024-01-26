@@ -72,6 +72,7 @@
   font-size: 1.5rem;
   padding: 1rem;
   border-radius: 5px;
+  font-family: var(--poppins-font);
 }
 .skill-list i {
   margin-right: 1rem;
@@ -86,10 +87,21 @@
 
 .skill-header {
   font-size: 2.5rem;
+  margin-top: 1rem;
 }
 
 .skill-statement {
   color: #495057;
   font-size: 0.9rem;
   margin-top: 1rem;
+}
+/* about me paragrpah */
+
+.about-paragraph {
+  margin-top: 1rem;
+}
+.about-paragraph p {
+  line-height: 2;
+  color: #495057;
+  font-family: var(--poppins-font);
 }
