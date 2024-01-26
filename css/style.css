@@ -45,7 +45,7 @@
   font-family: var(--poppins-font);
   font-weight: lighter;
   color: #495057;
-  font-size: 14px;
+  font-size: 0.9rem;
   margin-bottom: 1rem;
 }
 /* 
@@ -53,11 +53,17 @@
 */
 
 /* Skill Section */
+.skill-line {
+  display: flex;
+  align-items: center;
+}
+
 .skill-offer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 5rem;
   row-gap: 2rem;
+  margin-top: 5rem;
 }
 
 .skill-list {
@@ -70,4 +76,20 @@
 .skill-list i {
   margin-right: 1rem;
   font-size: 2rem;
+}
+
+.skill-paragraph {
+  font-family: var(--poppins-font);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.skill-header {
+  font-size: 2.5rem;
+}
+
+.skill-statement {
+  color: #495057;
+  font-size: 0.9rem;
+  margin-top: 1rem;
 }

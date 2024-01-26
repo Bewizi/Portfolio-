@@ -48,4 +48,9 @@
   .home-image {
     margin-top: 5rem;
   }
+
+  /* skill section */
+  .skill-offer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
