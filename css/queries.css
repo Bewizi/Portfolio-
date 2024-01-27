@@ -63,4 +63,10 @@
   .project-cards {
     width: 20rem;
   }
+
+  /* Contact Me */
+  .reach-me {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 }
