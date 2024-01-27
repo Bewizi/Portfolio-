@@ -105,3 +105,42 @@
   color: #495057;
   font-family: var(--poppins-font);
 }
+
+/* project section */
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5rem;
+  row-gap: 2rem;
+}
+.project-cards {
+  background-color: #fcfdf4;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.29);
+  /* height: 50rem; */
+  width: 30rem;
+  padding: 2%;
+  transition: all 0.5s;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+.project-cards:hover {
+  transform: scale(1.03) translateY(-6px);
+}
+
+.projects {
+  filter: grayscale(100%);
+  filter: blur(2px);
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+.projects:hover {
+  filter: blur(0);
+}
+
+.tool-use {
+  font-family: var(--poppins-font);
+  font-weight: lighter;
+  font-size: 0.8rem;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}

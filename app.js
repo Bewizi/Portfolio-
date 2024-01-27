@@ -9,6 +9,8 @@ openNav.addEventListener("click", () => {
   openNav.style.display = "none";
   closeNav.style.display = "block";
   nav.style.display = "block";
+
+  // when links are clicked the menubar hides
   if (listOfLInks) {
     listOfLInks.forEach((link) => {
       link.addEventListener("click", () => {
