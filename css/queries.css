@@ -1,3 +1,71 @@
+@media (max-width: 1024px) {
+  .header {
+    left: 0;
+    background-color: #fcfdf46a;
+  }
+  nav {
+    display: none;
+  }
+  .icons {
+    display: block;
+  }
+  .close {
+    display: none;
+  }
+  .links ul {
+    flex-direction: column;
+    position: absolute;
+    top: 12.13rem;
+    width: 100%;
+    height: auto;
+    left: 0;
+    text-align: center;
+    padding: 3% 0;
+    z-index: 999;
+    background-color: #fcfdf47d;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
+    transform: translateY(-40%);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* home section */
+  .home-container {
+    padding: 0 5%;
+    flex-wrap: wrap;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .home-image {
+    margin-top: 5rem;
+  }
+
+  /* skill section */
+  .skill-offer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* project section */
+  .project-container {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+
+  .project-cards {
+    width: 100%;
+  }
+
+  /* Contact Me */
+  .reach-me {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
 @media (max-width: 500px) {
   .header {
     left: 0;
