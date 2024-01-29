@@ -130,12 +130,10 @@
 
 .projects {
   filter: grayscale(100%);
-  filter: blur(2px);
-  opacity: 0.8;
   margin-bottom: 1rem;
 }
 .projects:hover {
-  filter: blur(0);
+  filter: grayscale(0);
 }
 
 .tool-use {
