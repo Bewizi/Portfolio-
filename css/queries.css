@@ -134,6 +134,9 @@
   }
 
   /* Contact Me */
+  .contact-header {
+    text-align: center;
+  }
   .reach-me {
     flex-wrap: wrap;
     gap: 1rem;
