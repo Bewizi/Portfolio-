@@ -73,10 +73,22 @@
   padding: 1rem;
   border-radius: 5px;
   font-family: var(--poppins-font);
+  position: relative;
+  z-index: -1;
 }
 .skill-list i {
   margin-right: 1rem;
   font-size: 2rem;
+}
+.skill-list,
+.tailwind-icon {
+  display: flex;
+  gap: 1rem;
+}
+.tailwind-icon {
+  /* position: absolute; */
+  width: 2rem;
+  display: flex;
 }
 
 .skill-paragraph {
