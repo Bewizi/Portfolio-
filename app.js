@@ -28,3 +28,11 @@ closeNav.addEventListener("click", () => {
 });
 
 // when the list are clicked the nav should hide
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    const nav = document.querySelector("nav");
+    if (nav) {
+      nav.style.display = "none";
+    }
+  }
+});
