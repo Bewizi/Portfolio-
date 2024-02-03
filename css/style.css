@@ -129,10 +129,7 @@
 .project-cards {
   background-color: #fcfdf4;
   box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.29);
-
   width: 30rem;
-  position: relative;
-  z-index: -1;
   padding: 2%;
   transition: all 0.5s;
   border-radius: 10px;
