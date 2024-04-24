@@ -112,6 +112,7 @@
 
   .description {
     width: 100%;
+    line-height: 1.5;
   }
   .home-image {
     margin-top: 5rem;
