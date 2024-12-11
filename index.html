@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <!-- css styles -->
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/queries.css" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/queries.css" rel="stylesheet" />
 
     <!-- icons (remixicon) -->
     <link
@@ -27,11 +27,11 @@
         <nav>
           <div class="links">
             <ul>
-              <li><a href="#" class="list-links">Home</a></li>
-              <li><a href="#skills" class="list-links">Skills</a></li>
-              <li><a href="#aboutme" class="list-links">About Me</a></li>
-              <li><a href="#projects" class="list-links">Project</a></li>
-              <li><a href="#contact" class="list-links">Contact</a></li>
+              <li><a class="list-links" href="#">Home</a></li>
+              <li><a class="list-links" href="#skills">Skills</a></li>
+              <li><a class="list-links" href="#aboutme">About Me</a></li>
+              <li><a class="list-links" href="#projects">Project</a></li>
+              <li><a class="list-links" href="#contact">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -46,7 +46,7 @@
 
     <main>
       <!-- A summary about me a frontend developer -->
-      <section id="home-section" class="container">
+      <section class="container" id="home-section">
         <div class="home-container">
           <div>
             <h1 class="title">
@@ -63,21 +63,21 @@
             </p>
             <div>
               <button class="btn first-btn">
-                <a href="#projects" class="list-links">My Work</a>
+                <a class="list-links" href="#projects">My Work</a>
               </button>
               <button class="btn second-btn">
-                <a href="#aboutme" class="list-links btn-color">About Me</a>
+                <a class="list-links btn-color" href="#aboutme">About Me</a>
               </button>
             </div>
           </div>
           <div class="home-image">
-            <img src="/images//Toluwalase.png" alt="Toluwalase" />
+            <img alt="Toluwalase" src="/images//Toluwalase.png" />
           </div>
         </div>
       </section>
 
       <!-- My skills -->
-      <section id="skills" class="container">
+      <section class="container" id="skills">
         <div class="skill-content">
           <div class="skill-line">
             <div class="line"></div>
@@ -99,9 +99,9 @@
             </li>
             <li class="skill-list">
               <img
-                src="/images/icons/tailwind.svg"
                 alt="tailwind"
                 class="tailwind-icon"
+                src="/images/icons/tailwind.svg"
               />
               TAILWIND CSS
             </li>
@@ -109,12 +109,13 @@
               <i class="ri-smartphone-fill"></i>RESPONSIVE DESIGN
             </li>
             <li class="skill-list"><i class="ri-reactjs-fill"></i>REACT JS</li>
+            <li class="skill-list"><i class="ri-vuejs-fill"></i>VUE JS</li>
           </ul>
         </div>
       </section>
 
       <!-- About me -->
-      <section id="aboutme" class="container">
+      <section class="container" id="aboutme">
         <div class="skill-line">
           <div class="line"></div>
           <p class="skill-paragraph">About Me</p>
@@ -153,7 +154,7 @@
       </section>
 
       <!-- project section -->
-      <section id="projects" class="container">
+      <section class="container" id="projects">
         <div class="skill-line">
           <div class="line"></div>
           <p class="skill-paragraph">My Portfoilo</p>
@@ -167,6 +168,43 @@
         </p>
         <!-- List of my projects -->
         <div class="project-container">
+
+          <!-- Asset Token -->
+          <div class="project-cards">
+            <a
+                    href="https://asset-token.netlify.app/"
+                    target="_blank"
+            >
+              <img
+                      alt="Asset Token"
+                      class="projects"
+                      src="/images/Asset%20token.PNG"
+              />
+            </a>
+            <div>
+              <p class="tool-use">VueJS,Taliwind CSS & Regex</p>
+              <h3>Asset Token</h3>
+            </div>
+          </div>
+
+          <!-- GEN CODE -->
+          <div class="project-cards">
+            <a
+                    href="https://gencode-sigma.vercel.app/"
+                    target="_blank"
+            >
+              <img
+                      alt="Gen Code"
+                      class="projects"
+                      src="/images/GenCode.PNG"
+              />
+            </a>
+            <div>
+              <p class="tool-use">VueJS,Taliwind CSS & Node js</p>
+              <h3>Gen Code</h3>
+            </div>
+          </div>
+
           <!-- Cloud Computing Project -->
           <div class="project-cards">
             <a
@@ -174,9 +212,9 @@
               target="_blank"
             >
               <img
-                src="/images/CloudComputing-project.PNG"
                 alt="Cloud Computing Project"
                 class="projects"
+                src="/images/CloudComputing-project.PNG"
               />
             </a>
             <div>
@@ -192,9 +230,9 @@
               target="_blank"
             >
               <img
-                src="/images/Nexcent-project.PNG"
                 alt="Nexcent Agency Project"
                 class="projects"
+                src="/images/Nexcent-project.PNG"
               />
             </a>
             <div>
@@ -207,9 +245,9 @@
           <div class="project-cards">
             <a href="https://urbanstyledesign.netlify.app/" target="_blank">
               <img
-                src="/images/UrbanStyle-project.PNG"
                 alt="UrbanStyle Project"
                 class="projects"
+                src="/images/UrbanStyle-project.PNG"
               />
             </a>
             <div>
@@ -224,9 +262,9 @@
               target="_blank"
             >
               <img
-                src="/images/web3-fintech.png"
                 alt="Web3-fintech"
                 class="projects"
+                src="/images/web3-fintech.png"
               />
             </a>
             <div>
@@ -238,11 +276,13 @@
               </div>
             </div>
           </div>
+
+
         </div>
       </section>
 
       <!-- Contact Me -->
-      <section id="contact" class="container">
+      <section class="container" id="contact">
         <div class="contact">
           <div class="skill-line">
             <div class="line"></div>
@@ -254,18 +294,18 @@
           </h3>
           <!-- How i can be reached -->
           <div class="reach-me">
-            <a href="mailto:toluwalase.bewaji@yahoo.com/" class="social-links"
+            <a class="social-links" href="mailto:toluwalase.bewaji@yahoo.com/"
               >EMAIL ME<i class="ri-mail-fill"></i
             ></a>
             <a
-              href="https://www.linkedin.com/in/toluwalase-bewaji-ba73ab198/"
               class="social-links"
+              href="https://www.linkedin.com/in/toluwalase-bewaji-ba73ab198/"
               >LINKDIN<i class="ri-linkedin-fill"></i
             ></a>
-            <a href="https://twitter.com/__onlychild" class="social-links"
+            <a class="social-links" href="https://twitter.com/__onlychild"
               >TWITTER<i class="ri-twitter-x-fill"></i
             ></a>
-            <a href="https://github.com/Bewizi" class="social-links"
+            <a class="social-links" href="https://github.com/Bewizi"
               >GITHUB<i class="ri-github-fill"></i
             ></a>
           </div>
@@ -275,8 +315,8 @@
 
     <img
       height="32"
-      width="32"
       src="https://unpkg.com/simple-icons@v11/icons/[ICON SLUG].svg"
+      width="32"
     />
     <script src="app.js"></script>
   </body>
